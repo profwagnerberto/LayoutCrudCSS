@@ -1,0 +1,196 @@
+.principal {
+ margin-top: 1%;
+ margin-bottom: 1%;
+}
+
+/* Descrição */
+.principal__descricao {
+ margin-top: 6%;
+ font-weight: bold;
+ font-size: 1.4em;
+ text-align: center;
+}
+
+/* Breadcrumb */
+.principal__breadcrumb {
+ /* border: 1px solid green; */
+ font-size: 0.9em;
+ padding-left: 1em;
+}
+
+/* Menu interno */
+.principal__menu-interno {
+ padding: 0.2em;
+ background-color: lightgray;
+}
+
+.menu-interno__item {
+ margin: 0.2em;
+ padding: 0.2em;
+ list-style-type: none;
+}
+
+.menu-interno__item li {
+ background-color: slategray;
+ display: inline-block;
+ padding: 0.6em;
+ border-radius: 0.8em;
+ color: white;
+}
+
+.menu-interno__item li:hover {
+ background-color: gray;
+}
+
+.menu-interno__item li a {
+ text-decoration: none;
+ color: white;
+}
+
+/* Lista (tabela) */
+.principal__lista {
+ margin: 1em;
+}
+
+.lista-cabecalho {
+ background-color: slategray;
+ color: white;
+}
+
+.lista-cabecalho th {
+ padding: 0.4em;
+}
+
+.lista-item {
+ background-color: lightgray;
+}
+
+.lista-item td {
+ padding: 0.4em;
+}
+
+.lista-cabecalho th:nth-child(1),
+.lista-item td:nth-child(1) {
+ text-align: center;
+}
+
+.lista-cabecalho th:nth-child(2),
+.lista-item td:nth-child(2) {
+ text-align: right;
+}
+
+.lista-cabecalho th:nth-child(3),
+.lista-item td:nth-child(3) {
+ text-align: left;
+}
+
+.lista-cabecalho th:nth-child(4),
+.lista-item td:nth-child(4) {
+ text-align: left;
+}
+
+/* Legenda */
+.principal__legenda {
+ /* border: 1px solid green; */
+ font-size: 0.8em;
+}
+
+.legenda-item {
+ list-style-type: none;
+ padding-left: 1em;
+}
+
+.legenda-item li {
+ display: inline-block;
+ padding: 0.4em;
+}
+
+.legenda-obrigatorio,
+.legenda:required {
+ border: 1px solid red;
+ border-radius: 0.3em;
+}
+
+.legenda-invalido,
+.legenda:invalid {
+ background-color: khaki;
+ border-radius: 0.3em;
+}
+
+.legenda-so-leitura,
+.legenda:read-only {
+ color: rgb(84, 84, 84);
+ border: 1px dashed rgb(128, 128, 128);
+ border-radius: 0.3em;
+}
+
+.legenda-desabilitado,
+.legenda:disabled {
+ background-color: rgb(211, 211, 211);
+ color: rgb(84, 84, 84);
+ border-radius: 0.3em;
+}
+
+/* Formulário */
+.principal__formulario {
+ /* border: 1px solid green; */
+ margin: 1em;
+ display: block;
+}
+
+.formulario-texto{
+ padding: 0.5em;
+ margin-bottom: 0.4em;
+ border-radius: 0.3em;
+}
+
+.formulario-botao {
+ color: white;
+ padding: 0.8em 1em;
+ font-size: 1em;
+ font-weight: bold;
+ border: 1px solid darkslategray;
+ border-radius: 1em;
+}
+
+.formulario-salvar {
+ background-color: darkgreen;
+}
+
+.formulario-salvar:hover {
+ background-color: green;
+}
+
+.formulario-alterar {
+ background-color: darkblue;
+}
+
+.formulario-alterar:hover {
+ background-color: blue;
+}
+
+.formulario-excluir {
+ background-color: darkred;
+}
+
+.formulario-excluir:hover {
+ background-color: red;
+}
+
+/* Mensagem de sucesso */
+.principal__mensagem {
+ padding: 3em;
+ text-align: center;
+ font-size: 2em;
+ font-weight: bold;
+}
+
+/* Mensagem de sucesso */
+.mensagem-sucesso {
+ color: green;
+}
+
+/* Mensagem de erro */
+.mensagem-erro {
+ color: red;
+}

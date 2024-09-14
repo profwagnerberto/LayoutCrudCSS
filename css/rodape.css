@@ -1,0 +1,16 @@
+.rodape {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ background-color: lightgray;
+ text-align: center;
+}
+
+.rodape__titulo {
+ font-weight: bold;
+ font-size: 1.1em;
+}
+
+.rodape__descricao {
+ font-size: 0.9em;
+}

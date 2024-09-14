@@ -1,0 +1,44 @@
+.cabecalho {
+ background-color: slategray;
+ position: sticky;
+ top: 0;
+}
+
+.cabecalho__titulo {
+ text-align: center;
+ font-weight: bold;
+ font-size: 1.8em;
+ margin: 0;
+ padding: 1%;
+ color: white;
+}
+
+.cabecalho__menu {
+ margin: 0;
+ padding: 0.1em;
+ background-color: lightgray;
+}
+
+.menu__item {
+ margin: 0.4em;
+ padding: 0.4em;
+ list-style-type: none;
+ text-align: center;
+}
+
+.menu__item li {
+ background-color: slategray;
+ display: inline-block;
+ padding: 0.8em;
+ border-radius: 1em;
+ color: white;
+}
+
+.menu__item li:hover {
+ background-color: gray;
+}
+
+.menu__item li a {
+ text-decoration: none;
+ color: white;
+}
