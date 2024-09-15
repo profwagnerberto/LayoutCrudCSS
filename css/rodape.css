@@ -1,7 +1,7 @@
 .rodape {
- position: fixed;
+ position: sticky;
  bottom: 0;
- width: 100%;
+ /* width: 100%; */
  background-color: lightgray;
  text-align: center;
 }

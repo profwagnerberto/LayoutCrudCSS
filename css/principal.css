@@ -1,14 +1,15 @@
 .principal {
- margin-top: 1%;
- margin-bottom: 1%;
+ /* border: 1px solid red; */
+ margin-top: 0%;
+ margin-bottom: 100%;
 }
 
 /* Descrição */
 .principal__descricao {
- margin-top: 6%;
- font-weight: bold;
- font-size: 1.4em;
+ padding: 3em;
  text-align: center;
+ font-size: 1.4em;
+ font-weight: bold;
 }
 
 /* Breadcrumb */
@@ -49,6 +50,7 @@
 
 /* Lista (tabela) */
 .principal__lista {
+ /* border: 1px solid blue; */
  margin: 1em;
 }
 
@@ -105,27 +107,11 @@
  padding: 0.4em;
 }
 
-.legenda-obrigatorio,
-.legenda:required {
- border: 1px solid red;
- border-radius: 0.3em;
+.legenda-obrigatorio {
+ color: red;
 }
 
-.legenda-invalido,
-.legenda:invalid {
- background-color: khaki;
- border-radius: 0.3em;
-}
-
-.legenda-so-leitura,
-.legenda:read-only {
- color: rgb(84, 84, 84);
- border: 1px dashed rgb(128, 128, 128);
- border-radius: 0.3em;
-}
-
-.legenda-desabilitado,
-.legenda:disabled {
+.legenda-desabilitado {
  background-color: rgb(211, 211, 211);
  color: rgb(84, 84, 84);
  border-radius: 0.3em;
@@ -133,7 +119,7 @@
 
 /* Formulário */
 .principal__formulario {
- /* border: 1px solid green; */
+ /* border: 1px solid orange; */
  margin: 1em;
  display: block;
 }

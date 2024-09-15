@@ -34,37 +34,36 @@
   </section>
   <section class="principal__legenda">
    <ul class="legenda-item">
-    <li class="legenda-obrigatorio">Preenchimento obrigatório</li>
-    <li class="legenda-invalido">Valor inválido</li>
-    <li class="legenda-so-leitura">Só leitura</li>
+    <li class="legenda-obrigatorio">* Preenchimento obrigatório</li>
     <li class="legenda-desabilitado">Desabilitado</li>
    </ul>
   </section>
   <section class="principal__formulario">
    <form action="usuarios_acao.html" method="">
-    <label for="edtId">Id:</label>
-    <input class="legenda formulario-texto" type="number" id="edtId" min="1" max="10000" value="1" disabled>
-    <br>
-    <label for="edtNome">Nome:</label>
-    <br>
-    <input class="legenda formulario-texto" type="text" id="edtNome" size="40" value="Jonas" required>
-    <br>
-    <label for="edtEmail">E-mail:</label>
-    <br>
-    <input class="legenda formulario-texto" type="email" id="edtEmail" size="40" value="jonas@a.com">
-    <br>
-    <label for="edtSenha">Senha:</label>
-    <br>
-    <input class="legenda formulario-texto" type="password" id="edtSenha" size="30" value="***" required>
-    <br>
-    <label for="edtConfirmar">Confirmar senha:</label>
-    <br>
-    <input class="legenda formulario-texto" type="password" id="edtConfirmar" size="30" value="***" required>
-    <br><br>
+    <label for="edtId">
+      Id:</label> <br>
+    <input class="legenda-desabilitado formulario-texto" type="number" id="edtId" min="1" max="10000" value="1" disabled> <br>
+    <label for="edtNome">
+      <span class="legenda-obrigatorio">*</span>
+      Nome:</label> <br>
+    <input class="formulario-texto" type="text" id="edtNome" size="40" value="Jonas" required> <br>
+    <label for="edtEmail">
+      <span class="legenda-obrigatorio">*</span>
+      E-mail:</label> <br>
+    <input class="formulario-texto" type="email" id="edtEmail" size="40" value="jonas@a.com"> <br>
+    <label for="edtSenha">
+      <span class="legenda-obrigatorio">*</span>
+      Senha:</label> <br>
+    <input class="formulario-texto" type="password" id="edtSenha" size="30" value="***" required> <br>
+    <label for="edtConfirmar">
+      <span class="legenda-obrigatorio">*</span>
+      Confirmar senha:</label> <br>
+    <input class="formulario-texto" type="password" id="edtConfirmar" size="30" value="***" required> <br><br>
     <button class="formulario-botao formulario-alterar" name="alterar">Alterar</button>
     <button class="formulario-botao formulario-excluir" name="excluir">Excluir</button>
    </form>
   </section>
+  </main>
 
   <footer class="container rodape">
    <p class="rodape__titulo">Autor: prof. esp. Wagner L. Berto.</p>
