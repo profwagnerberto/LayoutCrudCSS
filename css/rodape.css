@@ -4,12 +4,10 @@
   background-color: lightgray;
   text-align: center;
 }
-
 .rodape__titulo {
- font-weight: bold;
- font-size: 1.1em;
+  font-weight: bold;
+  font-size: 1.1em;
 }
-
 .rodape__descricao {
- font-size: 0.9em;
+  font-size: 0.9em;
 }
