@@ -45,13 +45,11 @@
   background-color: slategray;
   color: white;
 }
-
 .lista-cabecalho th {
- padding: 0.4em;
+  padding: 0.4em;
 }
-
 .lista-item {
- background-color: lightgray;
+  background-color: lightgray;
 }
 
 .lista-item td {
