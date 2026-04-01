@@ -51,9 +51,8 @@
 .lista-item {
   background-color: lightgray;
 }
-
 .lista-item td {
- padding: 0.4em;
+  padding: 0.4em;
 }
 
 .lista-cabecalho th:nth-child(1),
