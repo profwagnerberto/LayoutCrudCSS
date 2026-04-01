@@ -1,16 +1,15 @@
 .cabecalho {
- background-color: slategray;
- position: sticky;
- top: 0;
+  background-color: gray;
+  position: sticky;
+  top: 0;
 }
-
 .cabecalho__titulo {
- text-align: center;
- font-weight: bold;
- font-size: 1.8em;
- margin: 0;
- padding: 1%;
- color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8em;
+  margin: 0;
+  padding: 2px;
+  color: white;
 }
 
 .cabecalho__menu {
