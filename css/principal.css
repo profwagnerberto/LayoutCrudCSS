@@ -18,19 +18,17 @@
   padding: 0.2em;
   background-color: lightgray;
 }
-
 .menu-interno__item {
- margin: 0.2em;
- padding: 0.2em;
- list-style-type: none;
+  margin: 0.2em;
+  padding: 0.2em;
+  list-style-type: none;
 }
-
 .menu-interno__item li {
- background-color: slategray;
- display: inline-block;
- padding: 0.6em;
- border-radius: 0.8em;
- color: white;
+  background-color: slategray;
+  display: inline-block;
+  padding: 0.6em;
+  border-radius: 0.8em;
+  color: white;
 }
 
 .menu-interno__item li:hover {
