@@ -55,26 +55,6 @@
   padding: 0.4em;
 }
 
-.lista-cabecalho th:nth-child(1),
-.lista-item td:nth-child(1) {
- text-align: center;
-}
-
-.lista-cabecalho th:nth-child(2),
-.lista-item td:nth-child(2) {
- text-align: right;
-}
-
-.lista-cabecalho th:nth-child(3),
-.lista-item td:nth-child(3) {
- text-align: left;
-}
-
-.lista-cabecalho th:nth-child(4),
-.lista-item td:nth-child(4) {
- text-align: left;
-}
-
 /* Legenda */
 .principal__legenda {
  /* border: 1px solid green; */
