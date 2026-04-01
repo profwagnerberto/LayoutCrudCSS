@@ -30,11 +30,9 @@
   border-radius: 0.8em;
   color: white;
 }
-
 .menu-interno__item li:hover {
- background-color: gray;
+  background-color: gray;
 }
-
 .menu-interno__item li a {
  text-decoration: none;
  color: white;
