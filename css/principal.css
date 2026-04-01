@@ -9,12 +9,10 @@
   font-size: 1.4em;
   font-weight: bold;
 }
-
-/* Breadcrumb */
 .principal__breadcrumb {
- /* border: 1px solid green; */
- font-size: 0.9em;
- padding-left: 1em;
+  /* border: 1px solid green; */
+  font-size: 0.9em;
+  padding-left: 1em;
 }
 
 /* Menu interno */
