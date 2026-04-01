@@ -54,31 +54,21 @@
 .lista-item td {
   padding: 0.4em;
 }
-
-/* Legenda */
 .principal__legenda {
- /* border: 1px solid green; */
- font-size: 0.8em;
+  /* border: 1px solid green; */
+  font-size: 0.8em;
 }
-
 .legenda-item {
- list-style-type: none;
- padding-left: 1em;
+  list-style-type: none;
+  padding-left: 1em;
 }
-
-.legenda-item li {
- display: inline-block;
- padding: 0.4em;
-}
-
 .legenda-obrigatorio {
- color: red;
+  color: red;
 }
-
 .legenda-desabilitado {
- background-color: rgb(211, 211, 211);
- color: rgb(84, 84, 84);
- border-radius: 0.3em;
+  background-color: rgb(211, 211, 211);
+  color: rgb(84, 84, 84);
+  border-radius: 0.3em;
 }
 
 /* Formulário */
