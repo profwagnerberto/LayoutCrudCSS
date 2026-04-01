@@ -22,21 +22,18 @@
   list-style-type: none;
   text-align: center;
 }
-
 .menu__item li {
- background-color: slategray;
- display: inline-block;
- padding: 0.8em;
- border-radius: 1em;
- color: white;
- font-weight: bold;
+  background-color: slategray;
+  display: inline-block;
+  padding: 0.8em;
+  border-radius: 1em;
+  color: white;
+  font-weight: bold;
 }
-
 .menu__item li:hover {
- background-color: gray;
+  background-color: gray;
 }
-
 .menu__item li a {
- text-decoration: none;
- color: white;
+  text-decoration: none;
+  color: white;
 }
