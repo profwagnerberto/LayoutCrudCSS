@@ -11,18 +11,16 @@
   padding: 2px;
   color: white;
 }
-
 .cabecalho__menu {
- margin: 0;
- padding: 0.1em;
- background-color: lightgray;
+  margin: 0;
+  padding: 0.1em;
+  background-color: lightgray;
 }
-
 .menu__item {
- margin: 0.4em;
- padding: 0.4em;
- list-style-type: none;
- text-align: center;
+  margin: 0.4em;
+  padding: 0.4em;
+  list-style-type: none;
+  text-align: center;
 }
 
 .menu__item li {
