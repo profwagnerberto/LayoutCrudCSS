@@ -14,11 +14,9 @@
   font-size: 0.9em;
   padding-left: 1em;
 }
-
-/* Menu interno */
 .principal__menu-interno {
- padding: 0.2em;
- background-color: lightgray;
+  padding: 0.2em;
+  background-color: lightgray;
 }
 
 .menu-interno__item {
