@@ -1,15 +1,13 @@
 .principal {
- /* border: 1px solid red; */
- margin-top: 0%;
- margin-bottom: 100%;
+  border: 1px solid red;
+  margin-top: 0%;
+  margin-bottom: 100%;
 }
-
-/* Descrição */
 .principal__descricao {
- padding: 3em;
- text-align: center;
- font-size: 1.4em;
- font-weight: bold;
+  padding: 3em;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
 /* Breadcrumb */
