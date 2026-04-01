@@ -37,16 +37,13 @@
   text-decoration: none;
   color: white;
 }
-
-/* Lista (tabela) */
 .principal__lista {
- /* border: 1px solid blue; */
- margin: 1em;
+  border: 1px solid blue;
+  margin: 1em;
 }
-
 .lista-cabecalho {
- background-color: slategray;
- color: white;
+  background-color: slategray;
+  color: white;
 }
 
 .lista-cabecalho th {
