@@ -70,12 +70,13 @@
   color: rgb(84, 84, 84);
   border-radius: 0.3em;
 }
-
-/* Formulário */
 .principal__formulario {
  /* border: 1px solid orange; */
  margin: 1em;
  display: block;
+}
+.formulario-etiqueta{
+  display: block;
 }
 
 .formulario-texto{
