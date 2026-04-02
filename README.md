@@ -1,2 +1,2 @@
 # LayoutCrudCSS
-## Prática de estilização em disciplinas de Desenvolvimento para Web e Desenvolvimento em JavaScript.
+## Prática de estilização de páginas web em disciplinas de Desenvolvimento para Web e Desenvolvimento em JavaScript.
