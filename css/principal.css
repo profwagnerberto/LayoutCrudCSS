@@ -116,21 +116,15 @@
 .formulario-excluir:hover {
   background-color: red;
 }
-
-/* Mensagem de sucesso */
 .principal__mensagem {
- padding: 3em;
- text-align: center;
- font-size: 2em;
- font-weight: bold;
+  padding: 3em;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
 }
-
-/* Mensagem de sucesso */
 .mensagem-sucesso {
- color: green;
+  color: green;
 }
-
-/* Mensagem de erro */
 .mensagem-erro {
- color: red;
+  color: red;
 }
