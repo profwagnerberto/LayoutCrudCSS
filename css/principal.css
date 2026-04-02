@@ -62,6 +62,10 @@
   list-style-type: none;
   padding-left: 1em;
 }
+.legenda-item li {
+  display: inline;
+  padding: 6px;
+}
 .legenda-obrigatorio {
   color: red;
 }
