@@ -94,29 +94,25 @@
   font-weight: bold;
   border: 1px solid darkslategray;
   border-radius: 1em;
+  display: block;
 }
 .formulario-salvar {
   background-color: darkgreen;
-  display: block;
 }
 .formulario-salvar:hover {
   background-color: green;
 }
-
 .formulario-alterar {
- background-color: darkblue;
+  background-color: darkblue;
 }
-
 .formulario-alterar:hover {
- background-color: blue;
+  background-color: blue;
 }
-
 .formulario-excluir {
- background-color: darkred;
+  background-color: darkred;
 }
-
 .formulario-excluir:hover {
- background-color: red;
+  background-color: red;
 }
 
 /* Mensagem de sucesso */
