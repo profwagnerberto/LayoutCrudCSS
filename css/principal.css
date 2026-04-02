@@ -87,6 +87,9 @@
   margin-bottom: 0.4em;
   border-radius: 0.3em;
 }
+.formulario-acoes{
+  display: block;
+}
 .formulario-botao {
   color: white;
   padding: 0.8em 1em;
@@ -94,7 +97,6 @@
   font-weight: bold;
   border: 1px solid darkslategray;
   border-radius: 1em;
-  display: block;
 }
 .formulario-salvar {
   background-color: darkgreen;
