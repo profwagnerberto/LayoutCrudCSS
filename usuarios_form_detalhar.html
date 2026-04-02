@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sistema de informação</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/container.css" />
+    <link rel="stylesheet" href="css/cabecalho.css" />
+    <link rel="stylesheet" href="css/principal.css" />
+    <link rel="stylesheet" href="css/rodape.css" />
+  </head>
+  <body>
+    <header class="container cabecalho">
+      <h1 class="cabecalho__titulo">Sistema de informação</h1>
+      <nav class="cabecalho__menu">
+        <ul class="menu__item">
+          <li>
+            <a href="index.html">Principal</a>
+          </li>
+          <li>
+            <a href="usuarios_listar.html">Usuários</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container principal">
+      <section class="principal__breadcrumb">
+        <h2>Usuários > Lista > Detalhes</h2>
+      </section>
+      <section class="principal__legenda">
+        <ul class="legenda-item">
+          <li class="legenda-obrigatorio">* Preenchimento obrigatório</li>
+          <li class="legenda-desabilitado">Desabilitado</li>
+        </ul>
+      </section>
+      <section class="principal__formulario">
+        <form action="usuarios_acao.html" method="">
+          <label class="formulario-etiqueta" for="edtId"> Id: </label>
+          <input class="formulario-texto" type="number" value="1" disabled />
+          <label class="formulario-etiqueta" for="edtNome">
+            Nome:<span class="legenda-obrigatorio">*</span>
+          </label>
+          <input
+            class="formulario-texto"
+            type="text"
+            id="edtNome"
+            size="50"
+            value="Jonas"
+            required
+          />
+          <label class="formulario-etiqueta" for="edtEmail"> E-mail: </label>
+          <input
+            class="formulario-texto"
+            type="email"
+            id="edtEmail"
+            size="50"
+            value="jonas@a.com"
+          />
+          <label class="formulario-etiqueta" for="edtSenha">
+            Senha:<span class="legenda-obrigatorio">*</span>
+          </label>
+          <input
+            class="formulario-texto"
+            type="password"
+            id="edtSenha"
+            size="30"
+            value="***"
+            required
+          />
+          <label class="formulario-etiqueta" for="edtConfirmar">
+            Confirmar senha:<span class="legenda-obrigatorio">*</span>
+          </label>
+          <input
+            class="formulario-texto"
+            type="password"
+            id="edtConfirmar"
+            size="30"
+            value="***"
+            required
+          />
+          <div class="formulario-acoes">
+            <button class="formulario-botao formulario-alterar" name="alterar">
+              Alterar
+            </button>
+            <button class="formulario-botao formulario-excluir" name="excluir">
+              Excluir
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="container rodape">
+      <h5 class="rodape__titulo">Autor: prof. esp. Wagner L. Berto</h5>
+      <h6 class="rodape__descricao">Uso liberado para fins educacionais.</h6>
+    </footer>
+  </body>
+</html>
